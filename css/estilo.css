@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 100px;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.container{
+    width: 1200px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+
+.container_header{
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.logo_header{
+    width: 336px;
+    height: 36px;
+   position: relative;
+   right: 450px;
+   top: 30px;
+}
+
+.fundo{
+    width: 100%;
+}
+
+.box_cadastro{
+    background-color: black;
+    height: 500px;
+    width: 490px;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+
+.dados{
+    position: absolute;
+    top: 155px;
+    right: 457px;
+    width: 30%;
+}
+
+.nome{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+    top: 17px;
+}
+
+.nome2{
+    Width: 420px;
+    Height: 32px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.nick{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.nick2{
+    Width: 220px;
+    Height: 32px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.data{
+     color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -36px;
+    left: 260px;
+}
+
+.data2{
+    Width: 190px;
+    Height: 32px;
+    position: relative;
+    top: -38px;
+    left: 260px;
+}
+
+.equipe{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top:-30px;
+    left: 30px;
+}
+
+.equipe2{
+    Width: 420px;
+    Height: 32px;
+    position: relative;
+    top: -26px;
+    left: 30px;
+}
+
+.email{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    left: 29px;
+}
+
+.email2{
+    Width: 420px;
+    Height: 32px;
+    position: relative;
+    top: -20px;
+    left: 30px;
+}
+
+.senha{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    left: 29px;
+}
+
+.senha2{
+    Width: 420px;
+    Height: 32px;
+    position: relative;
+    top: -20px;
+    left: 30px; 
+}
+
+.cadastrar{
+    background-color: #FF4D00;;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    width: 224px;
+    height: 62px;
+    position: relative;
+    left: 150px;
+}
